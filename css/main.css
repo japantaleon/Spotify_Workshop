@@ -156,6 +156,112 @@
 }
 
 
+#cardsection {
+  width:100%;
+  height:750px;
+  background:url(../img/Spotify_Background.png); 
+  padding-top: 40px;
+}
+
+.card {
+    width: 375px; 
+    height: 500px;
+    border-radius: 8px;
+}
+
+
+
+.card-title {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: .4px;
+}
+
+.card-subtitle {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+#moneyafter {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#moneyunder {
+    font-size: 12px;
+    margin-top: -8px;
+    border-bottom-color: gainsboro;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 5px;
+}
+
+
+#moneyunder > a {
+    color: #1db954;
+}
+
+#moneyunder > a:hover{
+    color: #1ed760;
+    text-decoration: none;
+    
+}
+
+#sublist {
+    margin-top: -8px;
+    border-bottom-color: gainsboro;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.text-muted {
+    opacity: .5;
+}
+
+#sublist li {
+    list-style: none;
+    padding-bottom: 9px;
+    margin-left: -35px;
+}
+
+#sublist li:before {
+    content: '✓';
+    padding-right: 20px;
+}
+
+#buttonlist {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 16px 117px 18px;
+    border-width: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    white-space: normal;
+    background-color: #1db954;
+}
+
+#buttonlist2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 16px 97px 18px;
+    border-width: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    white-space: normal;
+    background-color: #1db954;
+}
+
+
 
 .thumbnail {
     position:relative;
@@ -182,3 +288,4 @@
 .thumbnail:hover .caption {
     top:0%;
 }
+
