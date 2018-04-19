@@ -394,8 +394,15 @@
 }
 
 #usa > a:hover {
-   height: 12px;
-   width: 12px;
+   
+     color: #1ed760;
+}
+
+#usaflag {
+    height: 20x;
+    width: 20px;
+    
+    
 }
 
 #usaflag {
