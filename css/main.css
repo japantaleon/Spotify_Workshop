@@ -100,7 +100,7 @@
     font-weight: bold;
     color: #222326;
     font-family: 'Proxima Nova', Georgia, sans-serif;
-    padding-top: 45px;
+    padding-top: 10px;
    
 }
 
@@ -131,12 +131,16 @@
 }
 
 
+/*  Workshop Starts here */
+
 #sectionheader2 {
     font-size: 48px;
     font-weight: bold;
     color: white;
     font-family: 'Proxima Nova', Georgia, sans-serif;
-    padding-top: 45px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
     
    
 }
@@ -150,10 +154,12 @@
 }
 
 #psection2 {
-    font-size: 18px;
+    
     font-family: 'Proxima Nova', Georgia, sans-serif;
     font-weight: 500;
     color: white;
+    font-size: 12px; 
+    padding-top: 25px;
 }
 
 
@@ -209,6 +215,7 @@
    
 }
 
+/* HERrrrrrrr */
 
 #cardsection {
   width:100%;

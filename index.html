@@ -12,7 +12,7 @@
     
       <link href="fonts/et-line-font/style.css" rel="stylesheet">
       
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+     
       
 
     <title>Spotify Landing Page!</title>
@@ -223,21 +223,28 @@
                 </div>
             </div>
       
-      
-      <div class="container-fluid" id="cardsection">
-          <div class="container">
+     <!-- Card Section for Workshop starts here --> 
+      <div class="container-fluid" id="cardsection"> <!-- Create Structure for full-width container-->
+          <div class="container"> <!-- Create Structure for content -->
               
-              <h2 class="text-center" id="sectionheader2" style="padding-top: 10px; padding-bottom: 30px;">Go get the music.</h2>
+              <h2 class="text-center" id="sectionheader2"> Go get the music. </h2>  <!-- Section Header -->
     
-            <div class="row justify-content-center">
-                    <div class="col-md-6">
-                       <div class="card" style="margin-left: 11rem; border-radius: 8px">
-                              <div class="card-body" style="padding: 28px;">
+            <div class="row"> <!-- Due to 2 cards we need a row to hold 2 columns -->
+                    <div class="col-md-6">   <!-- Remember Boostrap has a 12 px grid, so 2 columns should be even (6) -->
+                        
+                        
+                       <div class="card" style="margin-left: 11rem; border-radius: 8px">  <!-- Hard code CSS to save time -->
+                              <div class="card-body" style="padding: 28px;"> <!-- Hard code CSS to save time -->
+                                  
+                                <!-- Body of Card Starts Here -->  
+                                  
                                 <h5 class="card-title">Spotify Free</h5>
                                 <h6 class="card-subtitle mb-2">$0.00 <span id="moneyafter"> &nbsp;/ &nbsp;month</span></h6>
-                                   <p id="moneyunder"><br><br>
-                                    </p>
-                                <ul id="sublist">
+                                  
+                                <p id="moneyunder"> <br><br> </p>
+                                  
+                                <ul id="sublist"> <!-- List Starts -->  
+                                    
                                     <li>Shuffle play</li>
                                     <li class="text-muted">Ad free</li>
                                     <li class="text-muted">Unlimited skips</li>
@@ -246,10 +253,13 @@
                                     <li class="text-muted">High quality audio</li>
                                 </ul>
                                 
-                                <a href="#" class="btn btn-primary btn-lg" id="buttonlist">GET FREE</a>
+                                <a href="#" class="btn btn-primary btn-lg" id="buttonlist">GET FREE</a> <!-- button --> 
+                                  
                               </div>
                             </div>
                     </div>
+                
+                <!-- Copy and Paste and Start a <p> tag here -->
                     
                     <div class="col-md-6">
                         <div class="card" style="border-radius: 8px">
@@ -278,7 +288,7 @@
                 </div>
               
               
-              <p class="text-center" id="psection2" style="font-size: 12px; padding-top: 25px;">* Spotify® 30-Days Free Trial Offer Terms and Conditions apply. Users who have subscribed to the Premium or Unlimited service or who<br> have taken a trial are ineligible for this offer.</p>
+              <p class="text-center" id="psection2">* Spotify® 30-Days Free Trial Offer Terms and Conditions apply. Users who have subscribed to the Premium or Unlimited service or who<br> have taken a trial are ineligible for this offer.</p>
           </div>
       </div>
       
